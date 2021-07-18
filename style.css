@@ -1,0 +1,53 @@
+body{
+   height: 100%;
+   width: 100%;
+   margin: 0px;
+   padding: auto;
+}
+
+.container{
+    height: 100%;
+    border-top: 0em;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+.top-section{
+    background-color: #352D2F;
+    padding: 0%;
+    display: inline-block;
+    width: 100%;
+    align-items: stretch;
+    align-content: center;
+    /* align-items: stretch; */
+
+}
+.top-section div{
+    display: inline-block;
+    align-content: center;
+}
+
+.top-section .logo{
+    justify-content: flex-start;
+    border: 0px;
+    padding: 0px;
+}
+.top-menu{
+    margin-left: 500px;
+    justify-content: center;
+    justify-self: center;
+}
+.top-menu ul li{
+    display: inline-block;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 10px;
+
+}
+.social-media-icons{
+    display: inline-flex;
+    margin: 0px;
+}
+.social-media-icons i{
+    display: inline-block;
+}
