@@ -8,18 +8,18 @@ body{
 .container{
     height: 100%;
     border-top: 0em;
-    display: flex;
+    display: grid;
     width: 100%;
     margin: 0px;
 }
 .top-section{
     background-color: #352D2F;
     padding: 0%;
-    display: inline-block;
+    display: inline-grid;
     width: 100%;
     align-items: stretch;
     align-content: center;
-    /* align-items: stretch; */
+    grid-template-columns: 70px auto auto;
 
 }
 .top-section div{
@@ -33,21 +33,76 @@ body{
     padding: 0px;
 }
 .top-menu{
-    margin-left: 500px;
+    margin-left: auto;
     justify-content: center;
     justify-self: center;
+    padding-top: 20px;
+
+}
+.top-menu ul{
+    padding: 0px;
+    margin: auto;
+    display: inline-block;
+    justify-self: center;
+    
 }
 .top-menu ul li{
     display: inline-block;
     color: aliceblue;
     padding: 10px;
-    font-size: 10px;
+    font-size: 15px;
+    align-self: center;
+    font-family: Economica;
+    
 
 }
 .social-media-icons{
-    display: inline-flex;
     margin: 0px;
+    align-content: right;
+    /* align-self: ; */
 }
 .social-media-icons i{
-    display: inline-block;
+    align-content: end;
+    /* align-content: right; */
+    float: right;
 }
+.second-section{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    background-color: #352D2F;
+
+}
+.heading-section{
+    font-family: Economica;
+    font-size: 50px;
+    
+}
+.heading-section h1{
+    color: aliceblue;
+}
+.text-section{
+    font-family: Economica;
+}
+.text-section p {
+    color: aliceblue;
+}
+
+#text-section {
+    text-indent: 10%;
+}
+.button {
+    background-color: #f7fdf8;
+    border: none;
+    color: rgb(22, 20, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Economica;
+    font-weight: 900;
+  }
