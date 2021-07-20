@@ -106,3 +106,64 @@ body{
     font-family: Economica;
     font-weight: 900;
   }
+
+.third-section{
+    display: grid;
+    height: 200px;
+    grid-template-columns: 50% auto;
+}
+.highlighted-projects{
+    display: grid;
+    grid-template-rows: repeat(2, 80px);
+}
+.text-area{
+    display: contents;
+    height: 200px;
+}
+.highlighted-projects p{
+    padding-left: 45%;
+    font-family: Economica;
+}
+.highlighted-projects h2{
+    padding-left: 45%;
+    font-family: Economica;
+}
+.featured-projects{
+    background-color: #F63C3C;
+    
+}
+.discover-more{
+    padding-left: 45%;
+}
+.discover-more p{
+    padding:0%;
+    font-size: 12px;
+}
+.discover-more .button {
+    background-color: #F63C3C;
+    border: none;
+    color: rgb(22, 20, 20);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Economica;
+    font-weight: 900;
+    
+  }
+
+.colored-boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grey-area{
+      height: 200px;
+      background-color:#605A5C;
+  }
+.dark-grey-area{
+    height: 200px;
+    background-color: #352D2F;
+}
