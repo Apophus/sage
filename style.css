@@ -240,3 +240,27 @@ body{
 #items p{
     font-family: economica;
 }
+.sixth-section{
+    display: grid;
+    /* grid-template-rows: 80px 300px 40px; */
+    grid-template-columns: 20% auto 20%;
+    background-color:#f1f1f1;
+}
+.content-section{
+    display: grid;
+    /* grid-auto-rows: auto; */
+    
+    font-family: Economica;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.row div{
+    display: grid;
+    grid-template-rows: auto;
+    font-family: Economica;
+    grid-row-gap: 10px;
+}
