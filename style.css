@@ -195,3 +195,26 @@ body{
     display: grid;
     grid-template-rows: 200px 200px 200px;
 }
+
+.fourth-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* height: 400px; */
+    align-items: stretch;
+}
+
+.history-text{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    font-family: Economica;
+}
+.history-logo{
+    /* display: grid; */
+    color: black;
+}
+
+.explore-more .button{
+    background-color:#F63C3C;
+    color: cornsilk;
+    
+}
