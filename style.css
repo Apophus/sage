@@ -218,3 +218,25 @@ body{
     color: cornsilk;
     
 }
+
+.fifth-section{
+    display: grid;
+    grid-template-columns:20% auto 20%;
+}
+.mid-content {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#items{
+    display: grid;
+    place-items: center;
+}
+#items h1{
+    color:#F63C3C ;
+    font-family: Economica;
+    
+}
+#items p{
+    font-family: economica;
+}
