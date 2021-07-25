@@ -109,28 +109,50 @@ body{
 
 .third-section{
     display: grid;
-    height: 200px;
+
     grid-template-columns: 50% auto;
 }
 .highlighted-projects{
     display: grid;
-    grid-template-rows: repeat(2, 80px);
+    grid-template-rows:200px 200px 200px;
 }
 .text-area{
-    display: contents;
-    height: 200px;
+    display: grid;
+    /* height: 200px; */
+    justify-items: center;
+    /* grid-template-rows: ; */
+    justify-content: center;
+    grid-template-columns:40% 40% 20%;
 }
-.highlighted-projects p{
-    padding-left: 45%;
+.center{
+    /* display: grid; */
+    justify-content: center;
+    place-self: center;
+}
+.text-area p{
+    /* padding-left: 45%; */
     font-family: Economica;
+    font-size: 12px;
+    padding-top: 15px;
 }
 .highlighted-projects h2{
-    padding-left: 45%;
+    /* padding-left: 5px; */
     font-family: Economica;
+    font-size: 35px;
+    /* padding-bottom: 20px; */
 }
 .featured-projects{
     background-color: #F63C3C;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
     
+}
+.featured-2{
+    font-family: Economica;
+    color: aliceblue;
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 10% 90%;
 }
 .discover-more{
     padding-left: 45%;
@@ -138,6 +160,7 @@ body{
 .discover-more p{
     padding:0%;
     font-size: 12px;
+    font-family: Economica;
 }
 .discover-more .button {
     background-color: #F63C3C;
@@ -166,4 +189,9 @@ body{
 .dark-grey-area{
     height: 200px;
     background-color: #352D2F;
+}
+
+.featured-projects{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
 }
