@@ -264,3 +264,18 @@ body{
     font-family: Economica;
     grid-row-gap: 10px;
 }
+
+.seventh-section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    font-family: Economica;
+    background-color: #352D2F;
+    color: cornsilk;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.touch{
+    border-bottom: cornsilk 5px solid;
+}
